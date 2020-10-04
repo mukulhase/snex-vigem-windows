@@ -26,11 +26,14 @@ module.exports = {
         ]
       },
       {
-        test: /\.node$/,
+        test: /\.node/i,
         use: [
+          { loader: "node-loader" },
           {
-            loader: "native-addon-loader",
-            options: { name: "[name]-[hash].[ext]" }
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]"
+            }
           }
         ]
       }

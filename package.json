@@ -11,14 +11,23 @@
     "debug": "webpack && qode --inspect ./dist/index.js"
   },
   "dependencies": {
-    "@nodegui/nodegui": "^0.25.0"
+    "@nodegui/nodegui": "^0.25.0",
+    "cross-fetch": "^3.0.6",
+    "isomorphic-fetch": "^3.0.0",
+    "net": "1.0.2",
+    "peerjs": "0.3.14",
+    "snex": "^0.5.0",
+    "vigemclient": "github:mukulhase/node-ViGEmClient#AddingNodeLoaderExtension",
+    "wrtc": "^0.4.6",
+    "ws": "2.1.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "@nodegui/packer": "^1.4.1",
-    "@types/node": "^14.11.1",
+    "@types/node": "^14.11.2",
     "clean-webpack-plugin": "^3.0.0",
-    "file-loader": "^6.1.0",
-    "native-addon-loader": "^2.0.1",
+    "file-loader": "^4.2.0",
+    "node-loader": "^0.6.0",
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
