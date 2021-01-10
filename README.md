@@ -1,5 +1,8 @@
 # Snex + Vigem = Phone as p2p virtual controller over the internet
 
+Video:
+[![Watch the demo](https://img.youtube.com/vi/-mJMG3Lgj2I/hqdefault.jpg)](https://www.youtube.com/watch?v=-mJMG3Lgj2I&feature=youtu.be&ab_channel=MukulHase)
+
 This project uses nodegui-starter for its UI.
 
 # nodegui-starter
