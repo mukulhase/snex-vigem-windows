@@ -19,7 +19,7 @@
     "snex": "^0.5.0",
     "vigemclient": "github:mukulhase/node-ViGEmClient#AddingNodeLoaderExtension",
     "wrtc": "^0.4.6",
-    "ws": "2.1.0",
+    "ws": "3.3.1",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
